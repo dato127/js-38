@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        class person {
+            name = " ";
+
+            set_name() {
+                this.name = "davit";
+            }
+            get_name() {
+                console.log(this.name);
+            }
+
+            lastname = " ";
+
+            set_lastname() {
+                this.lastname = "abakelia";
+            }
+            get_lastname() {
+                console.log(this.lastname);
+            }
+
+            age = " ";
+
+            set_age() {
+                this.age = "19";
+            }
+            get_age() {
+                console.log(this.age);
+            }
+        }
+
+        var object = new person();
+
+        object.set_name();
+        object.set_lastname();
+        object.set_age();
+
+        document.write(object.name + ("<br>"));
+        document.write(object.lastname + ("<br>"));
+        document.write(object.age);
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
